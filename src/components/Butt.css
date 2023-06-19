@@ -1,0 +1,44 @@
+/* .buttons-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .big-button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 2rem;
+    min-width: 100px;
+    min-height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 200ms;
+  } */
+
+  .buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+  
+   .big-button {
+    font-size: 2rem;
+    min-width: 120px;
+    min-height: 120px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 200ms;
+  }
+  
+  .big-button:hover {
+    background: rgba(255, 255, 255, 0.6);
+  }
+  
+  .big-button:active {
+    background: rgba(0, 0, 0, 0.4);
+  }
